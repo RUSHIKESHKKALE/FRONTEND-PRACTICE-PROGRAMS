@@ -1,0 +1,22 @@
+div{
+	width: 50%;
+	height:150px;
+	min-width: 150px;
+	
+	min-height: 150px;
+	
+	background: aqua;
+	overflow: scroll;
+}
+nav p{
+	background: black;
+	color: white;
+	text-align: justify;
+    display: inline;
+    margin-left:600px;
+}
+nav  p span:hover{
+	background: aqua;
+	color: red;
+	text-decoration: underline;
+}

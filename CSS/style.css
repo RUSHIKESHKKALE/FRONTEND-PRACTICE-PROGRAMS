@@ -1,0 +1,66 @@
+.listpara{
+	color: blue;
+	background: yellow;
+}
+.img2{
+	width: 100%;
+}
+#blog-title{
+	background: aqua;
+}
+
+/*h4{
+  text-transform: uppercase;
+}*/
+
+.uppercase{
+	text-transform: uppercase;
+}
+.cursive{
+	font-family: cursive;
+	background-color: pink;
+}
+/*nested selector example*/
+li p{
+	text-transform: uppercase;
+}
+/*grouping selectors*/
+p,h4{
+	color: red;
+}
+/*psceudo class in css hover*/
+#blog-heading:hover{
+    background: red;
+}
+#main-section{
+    display: inline-block;
+    width: 70%
+}
+#aside-section input{
+	display: block;
+}
+#aside-section{
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	display:inline-block;
+	width: 21%;
+	vertical-align: top;
+	margin: 41px;
+	vertical-align: top left;
+    background: aqua;
+
+}
+#aside-section h4{
+	color: black;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+
+
+}
+#aside-section button{
+	background: black;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+

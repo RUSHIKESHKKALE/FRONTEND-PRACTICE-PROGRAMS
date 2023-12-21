@@ -1,0 +1,46 @@
+#container{
+	width: 50vw;
+	height: 50vh;
+    background: cyan;
+	display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+    padding: 2px;
+
+}
+#d1{
+	background: red;
+	width: 10%;
+	height: 10%;
+	border-radius: 50%;
+}
+#d2{
+	background: yellow;
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+}
+#d3{
+	background: blue;
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+}
+#d4{
+	background: grey;
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+}
+#d5{
+	background: pink;
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+}
+
+h1{
+	background: red;
+	color: white;
+
+}

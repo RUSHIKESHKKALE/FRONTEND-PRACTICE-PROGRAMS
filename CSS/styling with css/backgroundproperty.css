@@ -1,0 +1,9 @@
+#logo-image-container{
+	width:100vw; 
+	height:100vh;
+    background-image:  url("E:/Pictures/Rushikesh/PicsArt/rushiimage.jpg") , url("E:/Pictures/Rushikesh/WhatsApp Documents/a.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+h1{
+	text-align: justify;
+	color: blue;
+	font font-family: cursive;
+}
+p{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: yellow;
+	text-decoration:underline; 
+	line-height: 40px;
+	font-weight: 122;
+	text-shadow: rgba(122,122,122,0.5);
+	font-style: italic;
+
+}

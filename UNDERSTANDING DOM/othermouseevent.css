@@ -1,0 +1,12 @@
+#outer{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+}
+
+#input{
+    margin-top: 4px;
+    width: 200px;
+    height: 25px;
+    border: 2px solid black;
+}

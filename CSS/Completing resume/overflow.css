@@ -1,0 +1,6 @@
+div{
+	width: 40px;
+	height: auto;
+	border:2px solid black;
+	overflow-wrap: break-word; 
+}

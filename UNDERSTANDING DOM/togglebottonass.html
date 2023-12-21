@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  font-family: sans-serif;
+}
+
+#app{
+  width: 50px;
+  height: 15px;
+  margin: auto;
+  border: 2px solid black;
+  background-color: black;
+  padding: 2px;
+}
+
+#inner{
+  width: 40%;
+  height: inherit;
+   background-color:white;
+  
+}
+
+#heading{
+  text-align: center;
+}
+    </style>
+</head>
+
+    
+  <body id="body">
+    <div id="app">
+      <div id="inner"></div>
+    </div>
+
+       <h1 id="heading">Click ON The Toggle Button</h1>
+   <script>
+    var app=document.getElementById("app");
+
+var inner=document.getElementById("inner");
+
+var body=document.getElementById("body");
+
+var heading=document.getElementById("heading");
+
+function togglebutton(){
+   body.style.backgroundColor='black';
+   heading.style.color='white';
+   inner.style.marginLeft='25px';
+ }
+
+ inner.addEventListener('click', togglebutton);
+
+ app.removeEventListener("click", togglebutton);
+   </script>
+
+</body>
+</html>

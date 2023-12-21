@@ -1,0 +1,26 @@
+.div1{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 80px;
+    left: 20%;
+	background: yellow;
+	margin: 5px;
+}
+
+.div2{
+	width: 200px;
+	height: 200px;
+	background: blue;
+	
+}
+
+.div3{
+	width: 200px;
+	height: 200px;
+	background: cyan;
+	margin: 5px;
+	position: absolute;
+	left: 40%;
+	top: 200px;
+}

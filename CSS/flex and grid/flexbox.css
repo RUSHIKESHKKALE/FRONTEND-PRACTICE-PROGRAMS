@@ -1,0 +1,32 @@
+#container{
+	width: 75vw;
+	height: 75vh;
+	background: black;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	
+
+}
+#container .items{
+width:75%;
+height:75%;
+}
+
+#d1{
+	background: red;
+	
+}
+#d2{
+	background: yellow;
+	
+}
+#d3{
+	background: blue;
+}
+#d4{
+	background: grey;
+}
+#d5{
+	background: aqua;
+}

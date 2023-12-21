@@ -1,0 +1,29 @@
+.div{
+	width: 25%;
+	height: 80px;
+	margin: 5px;
+	
+	background-color: #333;
+    
+}
+
+#d1{
+   transform: rotate(20deg);
+}
+
+#d2{
+   transform: scaleY(1.5);
+   transition: all 2s ease-in-out 0.5s;
+}
+
+#d3{
+   transform: skew(20deg);
+   transform: translate(50%);
+}
+
+
+#d2:hover{
+   background: yellow;
+   width: 500px;
+   height: 200px;
+}

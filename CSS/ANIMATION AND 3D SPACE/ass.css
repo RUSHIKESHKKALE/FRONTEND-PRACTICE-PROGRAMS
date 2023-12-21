@@ -1,0 +1,12 @@
+.container{
+	
+	height: 100px;
+}
+.container div{
+	width: 100%;
+	display: inline-block;
+}
+img{
+	width:100%;
+	vertical-align: top;
+}

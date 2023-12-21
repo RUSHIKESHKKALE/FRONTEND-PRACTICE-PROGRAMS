@@ -1,0 +1,26 @@
+#container{
+	width: 500px;
+	height: 300px;
+	background: cyan;
+	display: flex;
+	flex-direction: row;
+   
+}
+#container div{
+	width:  200px;
+	height: 200px;
+}
+#d1{
+	background: red;
+	/*flex-grow: 1;*/
+    
+}
+#d2{
+	background: yellow;
+	/*flex-grow: 1;*/
+	
+}
+#d3{
+	background: pink;
+	 
+}

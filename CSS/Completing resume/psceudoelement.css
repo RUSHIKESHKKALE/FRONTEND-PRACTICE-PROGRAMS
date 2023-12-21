@@ -1,0 +1,49 @@
+.style-firstline::first-line{
+   font-size: 2rem;
+   color: blue;
+   text-transform: capitalize;
+   font-weight: bold;
+}
+
+#para::before{
+	content: 'before ';
+ font-size: 20px;
+ color: red;
+ background: cyan;
+}
+
+#para::after{
+	content: ' after ';
+ font-size: 20px;
+ color: red;
+ background: cyan;
+ text-transform: uppercase;;
+}
+#para{
+	background: yellow;
+}
+
+ul{
+	list-style: none;
+	text-align: center;
+
+}
+li{
+
+	display: inline-block;
+}
+
+li::befoer{
+     content: '';
+     background-image: url(C:\Users\kce\Desktop\CSS\image\c2.jpg);
+     background-size: contain;
+     display: inline-block;
+     width:20px;
+     height: 20px;
+}
+
+div{
+	 height: 150px;
+    width: 300px;
+    background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%);
+}

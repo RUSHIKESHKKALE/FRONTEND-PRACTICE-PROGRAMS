@@ -1,0 +1,25 @@
+#container{
+  width: 600px;
+  height: 600px;
+  background: cyan;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  
+}
+#container div{
+   width: 100px;
+   
+   height: 100px;
+}
+#d1{
+	background: red;
+}
+#d2{
+	background: yellow;
+}
+#d3{
+	background: blue;
+}

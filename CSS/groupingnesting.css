@@ -1,0 +1,24 @@
+/*grouping example selector*/
+h1, h2{
+	color: purple;
+	font size: 40px;
+}
+
+li p{
+	color: yellow;
+	 font-family: cursive;
+}
+/*nesting with class*/
+li .list-heading{
+	color: red;
+ background-color: blue;
+ font-family: sans-serif;
+}
+/*psceudo class hover*/
+h2:hover{
+	background: red;
+}
+h1:active{
+	color: red;
+}
+

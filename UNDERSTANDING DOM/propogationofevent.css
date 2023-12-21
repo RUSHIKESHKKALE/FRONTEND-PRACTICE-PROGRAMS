@@ -1,0 +1,14 @@
+#outer{
+    margin: 50px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    box-sizing: border-box;
+}
+#inner{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    margin:auto;
+}

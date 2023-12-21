@@ -1,0 +1,27 @@
+//function expression in javascript
+
+var factorial = function fact(n) {
+  //name function expression
+  if (n == 0) {
+    return 1;
+  }
+  return n * fact(n - 1);
+  /*var ans=1;
+   for(var i=0; i<=n;i++){
+    ans=ans+1;
+   }*/
+};
+
+var factorial2 = function (n) {
+  //ananomous function exxpression
+  var ans = 1;
+  for (var i = 1; i <= n; i++) {
+    ans = ans * i;
+  }
+};
+
+console.log(factorial);
+console.log(factorial2);
+
+console.log(factorial(5));
+console.log(factorial(6));

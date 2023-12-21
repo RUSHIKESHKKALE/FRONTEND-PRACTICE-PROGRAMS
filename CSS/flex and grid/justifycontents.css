@@ -1,0 +1,30 @@
+#container{
+	width: 600px;
+	height:600px;
+	background: cyan;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+    /*justify-content: flex-start;    ----this is by default value*/
+   /* justify-content: flex-end;    ----this is arrange all contents within box from end of the container*/
+   /*justify-content: center; ----------this arrange all the elments in center*/
+   /*justify-content: space-around;  ----put equal space around every element in the container*/
+   justify-content: space-between;     /*this maintain equal space between every element in container*/
+}
+#container div{
+	width: 100px;
+	height: 100px;
+}
+#d1{
+	background: red;
+}
+#d2{
+	background: yellow;
+}
+#d3{
+	background: blue;
+}
+
+#container div:hover{
+background: pink;
+}

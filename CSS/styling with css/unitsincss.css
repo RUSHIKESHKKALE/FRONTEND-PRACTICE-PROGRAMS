@@ -1,0 +1,32 @@
+#box1{
+	text-align: center;
+	height: 50vh;
+	width: 50vw;
+	background: red;
+}
+#box2{
+	height: 200px;
+	width: 200px;
+	background: #e9e7dd;
+}
+#div2{
+	width: 50%;
+	height:50%;
+	background: yellow;
+}
+#box3{
+	height: 200px;
+	width: 200px;
+	background: rgb(12,125,35);
+}
+#box4{
+	height: 200px;
+	width: 200px;
+	background: rgba(124,125,45,0.5);
+}
+#box5{
+	height: 200px;
+	width: 200px;
+	background: hsl(279.66deg 36.08% 19.79%);
+
+}
